@@ -23,7 +23,7 @@ const About = () => {
 
 function App() {
   // Initialize Google Analytics
-  ReactGA.initialize('YOUR_MEASUREMENT_ID');
+  ReactGA.initialize('UA-277174415-2');
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
